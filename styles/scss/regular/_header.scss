@@ -1,0 +1,35 @@
+@use 'utils' as *;
+
+.header {
+  @include flex;
+  width: 100%;
+  height: 15vh;
+  background-color: $verde;
+}
+
+.header__logo {
+  margin: 0 50px;
+  width: 75px;
+  width: 75px;
+}
+
+.header__ul {
+  display: flex;
+}
+
+.header__li {
+  padding: 0 20px;
+
+  font-size: size(6);
+  color: $blanco;
+
+  transition: 0.5s;
+  cursor: pointer;
+  margin: auto 0;
+
+  list-style: none;
+}
+
+.header__li:hover {
+  transform: scale(1.1);
+}

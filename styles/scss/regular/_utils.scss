@@ -1,0 +1,20 @@
+$blanco: #e6e6e6;
+$verde: #017143;
+$tamano-inicial: 3px;
+
+@mixin grid($min) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($min, 1fr));
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@function size($valor) {
+  @return $valor * $tamano-inicial;
+}

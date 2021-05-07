@@ -1,0 +1,29 @@
+@use 'utils' as *;
+
+.botones {
+  @include grid(50%);
+  background-color: $verde;
+}
+
+.botones__ul {
+  @include flex;
+  height: 15vh;
+
+  list-style: none;
+}
+
+.botones__li {
+  margin: 0 25px;
+  width: 30px;
+}
+
+.botones__img,
+.botones__svg {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.botones__img:hover,
+.botones__svg:hover {
+  transform: scale(1.2);
+}
