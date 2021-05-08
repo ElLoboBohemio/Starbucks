@@ -15,9 +15,6 @@ const granosCafe = document.querySelector('.fotos');
 const img = document.querySelector('.fotos__img');
 
 
-
-
-
 //Cambiar los colores de los elemntos
 function cambiarColor (color1, color2) {
     header.style.backgroundColor = color1;

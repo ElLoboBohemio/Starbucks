@@ -1,42 +1,90 @@
 [
   {
-    "nombre" : "Cafe Latte",
-    "precio" : "$3.00",
-    "img" : "https://i.postimg.cc/NjdWPXqt/Cafe-mochaccino.png"
-  },
-  {
     "nombre" : "Cafe con Crema",
     "precio" : "$3.50",
-    "img" : "https://i.postimg.cc/yNWwqNsZ/Cafe-con-crema.png"
+    "img" : "../images/cafe-crema-min.webp"
   },
+
   {
     "nombre" : "Cafe con Hielo",
     "precio" : "$3.10",
-    "img" : "https://i.postimg.cc/4xfD550w/Cafe-con-hielo.png"
-  },
-  {
-    "nombre" : "Cafe con té verde",
-    "precio" : "$3.25",
-    "img" : "https://i.postimg.cc/6qVPV2LD/Cafe-con-te-verde.png"
-  },
-  {
-    "nombre" : "Cafe Energizante",
-    "precio" : "$3.00",
-    "img" : "https://i.postimg.cc/ZnzgyF38/Cafe-energizante.png"
+    "img" : "../images/cafe-hielo-min.webp"
   },
   {
     "nombre" : "Cafe Mochaccino",
-    "precio" : "$3.75",
-    "img" : "https://i.postimg.cc/hPC9hLHN/Cafe-Mocha.png"
+    "precio" : "$3.10",
+    "img" : "../images/cafe-mocha-min.webp"
   },
   {
-    "nombre" : "Cafe mocha con chocolate blanco",
-    "precio" : "$4.00",
-    "img" : "https://i.postimg.cc/MKZ7WPry/Cafe-mocha-chocolate.png"
+    "nombre" : "Cafe Mochaccino",
+    "precio" : "$3.10",
+    "img" : "../images/cafe-mochaccino-min.webp"
   },
   {
-    "nombre" : "Cafe mocha helado expreso",
-    "precio" : "$4.25",
-    "img" : "https://i.postimg.cc/bvM4qjwF/Caf-Mocha-iced-Expresso.png"
+    "nombre" : "Cafe con Té Verde",
+    "precio" : "$3.25",
+    "img" : "../images/cafe-te-verde-min.webp"
+  },
+  {
+    "nombre" : "Cafe Frapuccino C/ Chocolate Blanco",
+    "precio" : "$3.00",
+    "img" : "../images/frapuccino-choco-blanco-min.webp"
+  },
+  {
+    "nombre" : "Cafe Frapuccino Caramelo",
+    "precio" : "$3.00",
+    "img" : "../images/frapuccino-caramelo-min.webp"
+  },
+  {
+    "nombre" : "Cafe Oscuro Mochaccino",
+    "precio" : "$3.00",
+    "img" : "../images/frapuccino-mocha-cafe-oscuro-min.webp"
+  },
+  {
+    "nombre" : "Cafe Mochaccino Chocolate",
+    "precio" : "$3.00",
+    "img" : "../images/frapuccino-mocha-choco-min.webp"
+  },
+
+  {
+    "nombre" : "Cafe Frapuccino Vainilla",
+    "precio" : "$3.00",
+    "img" : "../images/frapuccino-vainilla-min.webp"
+  },
+  {
+    "nombre" : "Cafe Frapuccino C/ Vainilla",
+    "precio" : "$3.00",
+    "img" : "../images/frapuccino-vanilla-almendras-min.webp"
+  },
+
+  {
+    "nombre" : "Cafe Frapuccino c/ Chocolate Oscuro",
+    "precio" : "$3.50",
+    "img" : "../images/cafe-frapuccino-choco-osc-min.webp"
+  },
+  {
+    "nombre" : "Cafe Frapuccino c/ Menta",
+    "precio" : "$3.50",
+    "img" : "../images/cafe-frapuccino-menta-min.webp"
+  },
+  {
+    "nombre" : "Cafe Mochaccino Iced Expresso",
+    "precio" : "$3.10",
+    "img" : "../images/cafe-mocha-iced-expresso-min.webp"
+  },
+  {
+    "nombre" : "Cafe Mochaccino Chocolate",
+    "precio" : "$3.10",
+    "img" : "../images/cafe-mocha-choco-min.webp"
+  },
+  {
+    "nombre" : "Cafe Energizante",
+    "precio" : "$3.50",
+    "img" : "../images/cafe-energizante-min.webp"
+  },
+  {
+    "nombre" : "Cafe Doble con Proteinas",
+    "precio" : "$3.50",
+    "img" : "../images/cafe-doble-proteinas-min.webp"
   }
 ]

@@ -1,3 +1,5 @@
+
+
 //Links
 const home = document.getElementById("home");
 const menu = document.getElementById("menu");
@@ -42,7 +44,7 @@ window.addEventListener('DOMContentLoaded', () => {
 const elementoCarousel = document.querySelector('.carousel__lista');
 
 function loadjson() {
-  fetch('cafes.json')
+  fetch('/scripts/cafes.json')
   .then(Response => Response.json())
   .then(data => {
     let html = '';
@@ -65,6 +67,9 @@ function loadjson() {
     })
     elementoCarousel.innerHTML = html;
   })
+.catch(() => {
+  alert('dice que no funciona');
+})
 }
 
 
