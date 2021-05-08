@@ -2,6 +2,8 @@ const batido1 = document.getElementById('batido-1');
 const batido2 = document.getElementById('batido-2');
 const batido3 = document.getElementById('batido-3');
 
+const batidos = document.querySelectorAll('.botones__img');
+
 const header = document.querySelector('.header');
 const titulo = document.querySelector('.cuerpo__h2--span');
 const boton = document.querySelector('.cuerpo__button');
@@ -11,6 +13,9 @@ const footer = document.querySelector('.botones');
 const granosCafe = document.querySelector('.fotos');
 
 const img = document.querySelector('.fotos__img');
+
+
+
 
 
 //Cambiar los colores de los elemntos
@@ -44,17 +49,17 @@ function cambiarImg (url) {
 batido1.addEventListener('click', ()=> {
   cambiarColor('#017143', '#e6e6e6');
   transiciones();
-  cambiarImg('https://i.postimg.cc/zXWkkLyC/img1.png');
+  cambiarImg('https://i.postimg.cc/SQDFmJwB/img1-min.png');
 });
 
 batido2.addEventListener('click', ()=> {
   cambiarColor('#996824','#ecb0ba');
   transiciones();
-  cambiarImg('https://i.postimg.cc/dQgBdRVQ/img2.png');
+  cambiarImg('https://i.postimg.cc/Fsztzhv7/img2-min.png');
 });
 
 batido3.addEventListener('click', ()=> {
   cambiarColor('#027391','#fa96db');
   transiciones();
-  cambiarImg('https://i.postimg.cc/7P59ftDQ/img3.png');
+  cambiarImg('https://i.postimg.cc/TY4zWB2Q/img3-min.png');
 });
