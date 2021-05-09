@@ -1,3 +1,42 @@
+@use '../regular/utils' as *;
+
 .menu {
   display: none;
+}
+
+.carousel__lista {
+  display: flex;
+}
+
+.carousel__elemento {
+  border-radius: 55px;
+  border: 5px solid $verde;
+  width: 200px;
+  margin: 0 10px;
+  background-color: $verde;
+}
+
+.carousel__div--img {
+  @include flex;
+  background-color: $blanco;
+  border-radius: 100px;
+  margin: 2.5px;
+  padding: 2.5px;
+}
+
+.carousel__img {
+  height: 100px;
+}
+
+.carousel__div--desc {
+  height: 100px;
+  background-color: $verde;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 10px 0;
+}
+
+.carousel__p {
+  padding: 0 10px;
+  color: $blanco;
 }

@@ -20,7 +20,7 @@ home.addEventListener("click", ()=>{
 
 menu.addEventListener("click", ()=>{
   contenidoHome.style.display = "none";
-  contenidoMenu.style.display = "block";
+  contenidoMenu.style.display = "flex";
 
   footerEspeciales.style.display = "none";
 });

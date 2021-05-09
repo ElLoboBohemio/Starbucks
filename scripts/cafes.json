@@ -13,11 +13,6 @@
   {
     "nombre" : "Cafe Mochaccino",
     "precio" : "$3.10",
-    "img" : "../images/cafe-mocha-min.webp"
-  },
-  {
-    "nombre" : "Cafe Mochaccino",
-    "precio" : "$3.10",
     "img" : "../images/cafe-mochaccino-min.webp"
   },
   {
