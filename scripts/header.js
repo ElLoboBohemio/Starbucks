@@ -23,6 +23,7 @@ menu.addEventListener("click", ()=>{
   contenidoMenu.style.display = "flex";
 
   footerEspeciales.style.display = "none";
+  loadjson();
 });
 
 stores.addEventListener("click", ()=>{
@@ -34,14 +35,7 @@ about.addEventListener("click", ()=>{
 });
 
 
-
-//Cargar JSON
-
-window.addEventListener('DOMContentLoaded', () => {
-  loadjson();
-});
-
-const elementoCarousel = document.querySelector('.carousel__lista');
+const elementoCarousel = document.querySelector('.menu__cafes');
 
 function loadjson() {
   fetch('/scripts/cafes.json')
@@ -51,15 +45,15 @@ function loadjson() {
     data.forEach(cafe => {
       html += 
       `
-      <div class="carousel__elemento">
+      <div class="menu__cafe">
 
-        <div class="carousel__div--img">
-          <img class="carousel__img" src="${cafe.img}" alt="${cafe.nombre}">
+        <div class="menu__foto">
+          <img class="menu__img" src="${cafe.img}" alt="${cafe.nombre}">
         </div>
 
-        <div class="carousel__div--desc">
-          <p class="carousel__p">${cafe.nombre}</p>
-          <p class="carousel__p">${cafe.precio}</p>
+        <div class="menu__desc">
+          <p class="menu__p">${cafe.nombre}</p>
+          <p class="menu__p">${cafe.precio}</p>
         </div>
         
       </div>

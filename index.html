@@ -21,13 +21,18 @@
     />
 
     <!-- LINKS -->
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles/css/main.css" />
-    <!-- Glider.css -->
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+
+    <!-- Splide.css -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
     />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/css/main.css" />
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -116,41 +121,10 @@
       <!-- Cuerpo 2 -->
       <section class="menu">
         <!-- Display: none; -->
-        <div class="carousel">
-          <div class="carousel__div">
-            <button class="carousel__prev" aria-label="Prev">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
-                />
-              </svg>
-            </button>
+        <div class="menu__grid">
+          <div class="menu__cafes"></div>
 
-            <div class="carousel__lista"></div>
-
-            <button class="carousel__next" aria-label="Next">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </button>
-          </div>
-          <div role="tablist" class="carousel__indicador"></div>
+          <div class="menu__caja"></div>
         </div>
       </section>
 
@@ -247,13 +221,9 @@
 
     <div class="transiciones"></div>
 
-    <!-- Glider.js -->
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
-
     <!-- Script -->
     <script src="scripts/header.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/animaciones.js"></script>
-    <script src="scripts/slider.js"></script>
   </body>
 </html>
