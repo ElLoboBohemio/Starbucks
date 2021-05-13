@@ -1,0 +1,51 @@
+@use '../regular/utils' as *;
+
+.menu {
+  display: none;
+}
+
+.menu__grid {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(100vw, 1fr));
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__cafes {
+  display: flex;
+  width: 98vw;
+  overflow: auto;
+}
+
+.menu__cafe {
+  border-radius: 55px;
+  border: 5px solid $verde;
+  width: 200px;
+  margin: 0 10px;
+  background-color: $verde;
+}
+
+.menu__foto {
+  @include flex;
+  background-color: $blanco;
+  border-radius: 100px;
+  margin: 2.5px;
+  padding: 2.5px;
+}
+
+.menu__img {
+  height: 100px;
+}
+
+.menu__desc {
+  height: 200px;
+  background-color: $verde;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 10px 0;
+}
+
+.menu__p {
+  padding: 0 10px;
+  color: $blanco;
+}

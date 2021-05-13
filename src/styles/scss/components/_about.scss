@@ -1,0 +1,29 @@
+@use '../regular/utils' as *;
+
+.about {
+  display: none;
+}
+
+.about__grid {
+  @include grid(400px);
+}
+
+.iconos {
+  padding: 0 50px;
+}
+
+.iconos__grid {
+  @include grid(125px);
+  justify-self: center;
+  align-items: center;
+}
+
+.iconos__flex {
+  @include flex;
+  flex-direction: column;
+  padding: 15px 0;
+  svg {
+    height: 75px;
+    width: 75px;
+  }
+}

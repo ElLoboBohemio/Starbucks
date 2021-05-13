@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ElLoboBohemio/Starbucks/issues"
   },
-  "homepage": "https://github.com/ElLoboBohemio/Starbucks#readme"
+  "homepage": "https://github.com/ElLoboBohemio/Starbucks#readme",
+  "dependencies": {
+    "webpack": "^5.37.0"
+  }
 }

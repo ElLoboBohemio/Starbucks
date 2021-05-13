@@ -1,0 +1,85 @@
+[
+  {
+    "nombre" : "Cafe con Crema",
+    "precio" : "$3.50",
+    "img" : "../src/images/cafe-crema-min.webp"
+  },
+
+  {
+    "nombre" : "Cafe con Hielo",
+    "precio" : "$3.10",
+    "img" : "../src/images/cafe-hielo-min.webp"
+  },
+  {
+    "nombre" : "Cafe Mochaccino",
+    "precio" : "$3.10",
+    "img" : "../src/images/cafe-mochaccino-min.webp"
+  },
+  {
+    "nombre" : "Cafe con Té Verde",
+    "precio" : "$3.25",
+    "img" : "../src/images/cafe-te-verde-min.webp"
+  },
+  {
+    "nombre" : "Cafe Frapuccino C/ Chocolate Blanco",
+    "precio" : "$3.00",
+    "img" : "../src/images/frapuccino-choco-blanco-min.webp"
+  },
+  {
+    "nombre" : "Cafe Frapuccino Caramelo",
+    "precio" : "$3.00",
+    "img" : "../src/images/frapuccino-caramelo-min.webp"
+  },
+  {
+    "nombre" : "Cafe Oscuro Mochaccino",
+    "precio" : "$3.00",
+    "img" : "../src/images/frapuccino-mocha-cafe-oscuro-min.webp"
+  },
+  {
+    "nombre" : "Cafe Mochaccino Chocolate",
+    "precio" : "$3.00",
+    "img" : "../src/images/frapuccino-mocha-choco-min.webp"
+  },
+
+  {
+    "nombre" : "Cafe Frapuccino Vainilla",
+    "precio" : "$3.00",
+    "img" : "../src/images/frapuccino-vainilla-min.webp"
+  },
+  {
+    "nombre" : "Cafe Frapuccino C/ Vainilla",
+    "precio" : "$3.00",
+    "img" : "../src/images/frapuccino-vanilla-almendras-min.webp"
+  },
+
+  {
+    "nombre" : "Cafe Frapuccino c/ Chocolate Oscuro",
+    "precio" : "$3.50",
+    "img" : "../src/images/cafe-frapuccino-choco-osc-min.webp"
+  },
+  {
+    "nombre" : "Cafe Frapuccino c/ Menta",
+    "precio" : "$3.50",
+    "img" : "../src/images/cafe-frapuccino-menta-min.webp"
+  },
+  {
+    "nombre" : "Cafe Mochaccino Iced Expresso",
+    "precio" : "$3.10",
+    "img" : "../src/images/cafe-mocha-iced-expresso-min.webp"
+  },
+  {
+    "nombre" : "Cafe Mochaccino Chocolate",
+    "precio" : "$3.10",
+    "img" : "../src/images/cafe-mocha-choco-min.webp"
+  },
+  {
+    "nombre" : "Cafe Energizante",
+    "precio" : "$3.50",
+    "img" : "../src/images/cafe-energizante-min.webp"
+  },
+  {
+    "nombre" : "Cafe Doble con Proteinas",
+    "precio" : "$3.50",
+    "img" : "../src/images/cafe-doble-proteinas-min.webp"
+  }
+]
