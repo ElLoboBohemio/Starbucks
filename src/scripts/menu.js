@@ -18,13 +18,27 @@ export function loadjson() {
           <p class="menu__p">${cafe.nombre}</p>
           <p class="menu__p">${cafe.precio}</p>
         </div>
-        
+
+        <button class="menu__btn" type="button">+</button>
+
       </div>
       `;
     })
     elementoCarousel.innerHTML = html;
+  }).then(() => {
+
+    const btns = document.querySelectorAll('.menu__btn');
+
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        console.log('Funciona');
+      })
+    })
   })
+
 .catch(() => {
-  alert('dice que no funciona');
+  alert('No funciona');
 })
 }
+
+

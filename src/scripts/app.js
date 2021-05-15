@@ -5,8 +5,7 @@ const batido3 = document.getElementById('batido-3');
 const batidos = document.querySelectorAll('.botones__img');
 
 const header = document.querySelector('.header');
-const titulo = document.querySelector('.cuerpo__h2--span');
-const boton = document.querySelector('.cuerpo__button');
+const titulos = document.querySelectorAll('.cuerpo__h2--span');
 const body = document.querySelector('.container-general');
 const logo = document.querySelector('.header__path');
 const footer = document.querySelector('.botones');
@@ -15,26 +14,30 @@ const granosCafe = document.querySelector('.fotos');
 const img = document.querySelector('.fotos__img');
 
 
-//Cambiar los colores de los elemntos
+//Cambiar los colores de los elementos
 function cambiarColor (color1, color2) {
     header.style.backgroundColor = color1;
     footer.style.backgroundColor = color1;
-    titulo.style.color = color1;
-    boton.style.backgroundColor = color1;
     logo.style.fill = color1;
     granosCafe.style.backgroundColor = color1;
     body.style.backgroundColor = color2;
+
+    titulos.forEach(titulo => {
+      titulo.style.color = color1;
+    }) 
 }
 
 //Efecto de transiciones suaves
 function transiciones () {
     header.style.transition = 'background-color 0.5s';
     footer.style.backgroundColor = 'background-color 0.5';
-    titulo.style.transition = 'color 0.5s';
-    boton.style.transition = 'background-color 0.5s';
-    logo.style.transition = 'fill 0.5s';
-    granosCafe.style.transition = 'background-color 0.5s'
+    granosCafe.style.transition = 'all 0.5s';
     body.style.transition = 'background-color 0.5s';
+
+    titulos.forEach(titulo => {
+      titulo.style.color = 'color 0.5s';
+    })
+
 }
 
 //Cambios de imagenes

@@ -1,0 +1,35 @@
+@use '../regular/utils' as *;
+
+.stores {
+  display: none;
+}
+
+.stores__grid {
+  @include grid(400px);
+}
+
+.stores__texto {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  justify-content: center;
+}
+
+.texto__div {
+  @include grid(100px);
+}
+
+.texto__svg {
+  margin: auto;
+  svg {
+    height: 75px;
+  }
+}
+
+.stores__img {
+  img {
+    width: 450px;
+
+    clip-path: circle(38% at 50% 50%);
+  }
+}

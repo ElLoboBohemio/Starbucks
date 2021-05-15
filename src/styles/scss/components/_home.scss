@@ -2,6 +2,7 @@
 
 .content {
   @include grid(400px);
+  overflow-y: hidden;
 }
 
 .content--margen {
