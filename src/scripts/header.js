@@ -1,6 +1,3 @@
-import {loadjson} from './menu.js';
-
-
 //Links
 const home = document.getElementById("home");
 const menu = document.getElementById("menu");
@@ -32,7 +29,6 @@ menu.addEventListener("click", ()=>{
   contenidoAbout.style.display = "none";
 
   footerEspeciales.style.display = "none";  
-  loadjson();
 });
 
 stores.addEventListener("click", ()=>{

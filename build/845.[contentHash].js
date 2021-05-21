@@ -1,0 +1,1 @@
+(self.webpackChunkstarbucks=self.webpackChunkstarbucks||[]).push([[845],{845:(s,b,e)=>{"use strict";s.exports=e.p+"d5cdbdb770b6c275985e.webp"}}]);

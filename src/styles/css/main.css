@@ -411,8 +411,7 @@
   background-color: #016f41;
   padding: 10px 0;
 }
-
-.menu__p {
+.menu__desc p {
   padding: 0 10px;
   color: #e6e6e6;
 }
