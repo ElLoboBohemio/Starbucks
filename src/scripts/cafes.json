@@ -2,81 +2,81 @@
   {
     "nombre" : "Cafe con Crema",
     "precio" : "$3.50",
-    "img" : "../src/images/cafe-crema-min.webp"
+    "img" : "https://i.postimg.cc/hthKk9vZ/cafe-crema-min.png"
   },
   {
     "nombre" : "Cafe con Hielo",
     "precio" : "$3.10",
-    "img" : "../src/images/cafe-hielo-min.webp"
+    "img" : "https://i.postimg.cc/HnBCKxgC/cafe-hielo-min.png"
   },
   {
     "nombre" : "Cafe Mochaccino",
     "precio" : "$3.10",
-    "img" : "../src/images/cafe-mochaccino-min.webp"
+    "img" : "https://i.postimg.cc/NG4YLNrP/cafe-mochaccino-min.png"
   },
   {
     "nombre" : "Cafe con Té Verde",
     "precio" : "$3.25",
-    "img" : "../src/images/cafe-te-verde-min.webp"
+    "img" : "https://i.postimg.cc/k4yr64Dt/cafe-te-verde-min.png"
   },
   {
     "nombre" : "Frapuccino Chocolate Blanco",
     "precio" : "$3.00",
-    "img" : "../src/images/frapuccino-choco-blanco-min.webp"
+    "img" : "https://i.postimg.cc/bwGjCpVK/frapuccino-choco-blanco-min.png"
   },
   {
     "nombre" : "Frapuccino Caramelo",
     "precio" : "$3.00",
-    "img" : "../src/images/frapuccino-caramelo-min.webp"
+    "img" : "https://i.postimg.cc/g2fb1Qfr/frapuchino-caramelo-min.png"
   },
   {
-    "nombre" : "Mochaccino Oscuro",
+    "nombre" : "Frapuccino Oscuro",
     "precio" : "$3.00",
-    "img" : "../src/images/frapuccino-mocha-cafe-oscuro-min.webp"
+    "img" : "https://i.postimg.cc/Vvsxj8bZ/frapuchino-mocha-cafe-oscuro-min.png"
   },
   {
     "nombre" : "Mochaccino Chocolate",
     "precio" : "$3.00",
-    "img" : "../src/images/frapuccino-mocha-choco-min.webp"
+    "img" : "https://i.postimg.cc/br6KgBxy/frapuchino-mocha-choco-min.png"
   },
   {
     "nombre" : "Frapuccino Vainilla",
     "precio" : "$3.00",
-    "img" : "../src/images/frapuccino-vainilla-min.webp"
+    "img" : "https://i.postimg.cc/rpx2Tgkj/frapuchino-vainilla-min.png"
   },
   {
     "nombre" : "Frapuccino Vainilla Almendras",
     "precio" : "$3.00",
-    "img" : "../src/images/frapuccino-vanilla-almendras-min.webp"
+    "img" : "https://i.postimg.cc/ZRmt53YS/frapuchino-vanilla-almendras-min.png"
   },
   {
     "nombre" : "Frapuccino Chocolate Oscuro",
     "precio" : "$3.50",
-    "img" : "../src/images/cafe-frapuccino-choco-osc-min.webp"
+    "img" : "https://i.postimg.cc/RF1m7dph/cafe-frapuccino-choco-osc-min.png"
   },
   {
     "nombre" : "Frapuccino Menta",
     "precio" : "$3.50",
-    "img" : "../src/images/cafe-frapuccino-menta-min.webp"
+    "img" : "https://i.postimg.cc/T1R6CbB9/cafe-frapuccino-menta-min.png"
   },
   {
     "nombre" : "Mochaccino Iced Expresso",
     "precio" : "$3.10",
-    "img" : "../src/images/cafe-mocha-iced-expresso-min.webp"
+    "img" : "https://i.postimg.cc/rFwT4S1y/cafe-mocha-iced-expresso-min.png"
   },
   {
     "nombre" : "Mochaccino Chocolate",
     "precio" : "$3.10",
-    "img" : "../src/images/cafe-mocha-choco-min.webp"
+    "img" : "https://i.postimg.cc/Zqd4R4rr/cafe-mocha-choco-min.png"
   },
   {
     "nombre" : "Cafe Energizante",
     "precio" : "$3.50",
-    "img" : "../src/images/cafe-energizante-min.webp"
+    "img" : "https://i.postimg.cc/4dRZHq5j/cafe-energizante-min.png"
   },
   {
     "nombre" : "Cafe Doble con Proteinas",
     "precio" : "$3.50",
-    "img" : "../src/images/cafe-doble-proteinas-min.webp"
+    "img" : "https://i.postimg.cc/XYhn4pyj/cafe-doble-proteinas-min.png"
   }
 ]

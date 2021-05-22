@@ -10,8 +10,8 @@ module.exports = {
 
 output: {
   path: path.resolve(__dirname, "../build"),
-  filename: "[name].[contentHash].js",
-  publicPath: "",
+  filename: "bundle.js",
+  publicPath: "/build/",
 },
 
   module: {
@@ -22,11 +22,23 @@ output: {
         },
 
         {
-          type: "asset",
           test: /\.(webp|svg|ico)$/i,
-          use : {
-            loader: "url-loader",
-          }
+          loader: 'file-loader',
+          options: 
+            {
+              name: '[name].[hash:6].[ext]',
+              outputPath: 'images',
+              publicPath: 'images',
+              emitFile: true,
+              esModule: false,
+            }
+        },
+
+        {
+          test: /\.html$/i,
+          use: [
+            "html-loader" 
+          ]
         },
     ]
   },
@@ -35,6 +47,8 @@ output: {
     new CleanWebpackPlugin(),
 
     new HtmlWebpackPlugin({
-      template: './src/index.html'})
+      template: './src/index.html',
+      filename: "index.html"
+    })
   ]
 }

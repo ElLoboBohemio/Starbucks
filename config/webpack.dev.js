@@ -7,7 +7,7 @@ const devConfig = {
   mode: "development",
   devServer: {
     port: 3000,
-    contentBase: "../dist",
+    contentBase: "./build",
     open: "brave",
   },
 }
