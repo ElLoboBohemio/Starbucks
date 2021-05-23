@@ -10,7 +10,7 @@ document.onload =
   opacity: 0,
   });
 
-//De izq a centro
+//De abajo a centro
   gsap.timeline()
   .to("body", {
   duration: 1.75,
@@ -33,7 +33,7 @@ document.onload =
   backgroundSize: "25%"
 })
 
-//Se va para la derecha
+//De centro a Arriba
   .to("body", {
   duration: 1.75,
 

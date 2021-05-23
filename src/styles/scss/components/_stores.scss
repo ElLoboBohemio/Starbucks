@@ -27,9 +27,11 @@
 }
 
 .stores__img {
+  display: flex;
+  justify-self: center;
+
   img {
     width: 450px;
-
     clip-path: circle(38% at 50% 50%);
   }
 }

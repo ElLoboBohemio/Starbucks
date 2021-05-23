@@ -1,22 +1,8 @@
 import "../styles/scss/regular/main.scss";
 
-
-const lazyLoadImage = (imageName, img) => {
-  import(
-    `../images/${imageName}`
-  )
-  .then(src => img.src = src.default)
-  .catch(err => console.error(err));
-};
-
-export default lazyLoadImage;
-
-
 const batido1 = document.getElementById('batido-1');
 const batido2 = document.getElementById('batido-2');
 const batido3 = document.getElementById('batido-3');
-
-const batidos = document.querySelectorAll('.botones__img');
 
 const header = document.querySelector('.header');
 const titulos = document.querySelectorAll('.cuerpo__h2--span');

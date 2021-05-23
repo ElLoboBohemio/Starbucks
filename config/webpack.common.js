@@ -10,8 +10,7 @@ module.exports = {
 
 output: {
   path: path.resolve(__dirname, "../build"),
-  filename: "[name].[contentHash].js",
-  publicPath: "",
+  filename: "[name].js",
 },
 
   module: {
@@ -21,13 +20,6 @@ output: {
           test: /\.s[ac]ss$/i,
         },
 
-        {
-          type: "asset",
-          test: /\.(webp|svg|ico)$/i,
-          use : {
-            loader: "url-loader",
-          }
-        },
     ]
   },
 

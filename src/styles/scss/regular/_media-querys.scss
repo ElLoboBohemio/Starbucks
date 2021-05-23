@@ -2,6 +2,7 @@
 @use '../components/home' as *;
 @use '../components/stores' as *;
 @use '../components/about' as *;
+@use '../components/menu' as *;
 
 @media (max-width: 1020px) {
   .content--margen {
@@ -38,7 +39,7 @@
 
   //Stores
   .stores__grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 
   .texto__div {
@@ -52,8 +53,9 @@
   }
 
   .stores__img {
-    display: flex;
-    justify-self: center;
+    img {
+      width: 300px;
+    }
   }
 
   //About
@@ -109,6 +111,18 @@
     height: 125px;
     margin-top: -25px;
   }
+
+  .menu__cafes {
+    height: 80vh;
+  }
+
+  //Stores
+
+  .stores__img {
+    img {
+      width: 250px;
+    }
+  }
 }
 
 /*Mobile*/
@@ -136,6 +150,9 @@
   }
 
   //Stores
+  .stores__grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 
   .stores__texto {
     grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
