@@ -12,7 +12,7 @@
 ## Contenidos
 
 - [Herramientas](#Herramientas)
-- [Contact](#Contact)
+- [Contacto](#Contacto)
 
 ## Herramientas
 
@@ -26,7 +26,7 @@
 - [JSON](https://www.json.org/json-en.html)
 
 
-## Contact
+## Contacto
 
 - GitHub [ElLoboBohemio](https://{github.com/ElLoboBohemio})
 - Twitter [@BohemioLobo](https://{twitter.com/BohemioLobo})
